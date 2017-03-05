@@ -17,10 +17,9 @@
   },
   "homepage": "https://github.com/kstenson/lambda-registry#readme",
   "dependencies": {
-    
     "aws-sdk": "^2.22.0",
-    "node-fetch": "^1.6.3"
-    
+    "node-fetch": "^1.6.3",
+    "shasum": "^1.0.2"
   },
   "devDependencies": {
     "ava": "^0.18.2",
