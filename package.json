@@ -17,11 +17,14 @@
   },
   "homepage": "https://github.com/kstenson/lambda-registry#readme",
   "dependencies": {
+    
     "aws-sdk": "^2.22.0",
-    "node-fetch": "^1.6.3",
-    "typescript": "^2.2.1"
+    "node-fetch": "^1.6.3"
+    
   },
   "devDependencies": {
-    "ava": "^0.18.2"
+    "ava": "^0.18.2",
+    "@types/node-fetch": "^1.6.7",
+    "typescript": "^2.2.1"
   }
 }
