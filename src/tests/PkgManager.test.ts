@@ -1,7 +1,7 @@
 import test from 'ava'
 import * as shasum from 'shasum';
 
-import pkgManger from './../packageManager'
+import pkgManger from './../PkgManager'
 
 let manager : pkgManger;
 
