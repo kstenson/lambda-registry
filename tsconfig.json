@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "esnext",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        "outDir": "./build"
+    },
+    "include":[
+        "./src/**/*.ts"
+    ],
+    "exclude":[
+        "./node_modules"
+    ]
+}

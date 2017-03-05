@@ -1,0 +1,27 @@
+{
+  "name": "lambda-registry",
+  "version": "0.0.1",
+  "description": "A private npm registry with caching built with AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kstenson/lambda-registry.git"
+  },
+  "author": "kstenson@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kstenson/lambda-registry/issues"
+  },
+  "homepage": "https://github.com/kstenson/lambda-registry#readme",
+  "dependencies": {
+    "aws-sdk": "^2.22.0",
+    "node-fetch": "^1.6.3",
+    "typescript": "^2.2.1"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2"
+  }
+}
